@@ -1,16 +1,15 @@
-import kotlin.time.times
-
-class Stubborn(){
+class eMobilis(){
 //    datamember
-    private var nambari:Int=5
+    val num:Int=6
 //    member function
-    fun calculate(){
-//        return nambari * nambari*
+    fun calculate():Int{
+        return num*num
+
     }
 }
 
 fun main(args: Array<String>) {
-//    this is an object
-    val myobject=Stubborn()
+    val myobject=eMobilis()
     println(myobject.calculate())
+
 }
